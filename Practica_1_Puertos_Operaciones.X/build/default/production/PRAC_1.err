@@ -1,0 +1,4 @@
+Message[302] ../ENCABEZADO.inc 26 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] ../ENCABEZADO.inc 27 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm 23 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm 25 : Register in operand not in bank 0.  Ensure that bank bits are correct.

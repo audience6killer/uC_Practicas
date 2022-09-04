@@ -1,0 +1,63 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sun Sep  4 00:34:20 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0000ce
+                   .cinit    romdata   0x000067    program   0x000004
+.config_2007_BUILD/DEFAULT/PRODUCTION/PRAC_1.       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/PRODUCTION/PRAC_1.       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000068      
+                            0x002007    0x002008      
+            107 out of 8455 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 CONTINUA   0x00001d    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                  CON_RES   0x000062    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                     DIVI   0x000058    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                 DIVISION   0x00004c    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                 DIV_CERO   0x000060    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                 ELECCION   0x000016    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                      FIN   0x000022    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                    MULTI   0x000043    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                 PB1_HIGH   0x000023    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                 PB2_HIGH   0x00002c    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                 PB3_HIGH   0x000035    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                  SIN_RES   0x000064    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+             _.org_0_0013   0x000013    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+             _.org_0_0020   0x000020    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+             _.org_0_0022   0x000022    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+             _.org_0_0013   0x000013    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                 ELECCION   0x000016    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                 CONTINUA   0x00001d    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+             _.org_0_0020   0x000020    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                      FIN   0x000022    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+             _.org_0_0022   0x000022    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                 PB1_HIGH   0x000023    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                 PB2_HIGH   0x00002c    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                 PB3_HIGH   0x000035    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                    MULTI   0x000043    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                 DIVISION   0x00004c    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                     DIVI   0x000058    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                 DIV_CERO   0x000060    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                  CON_RES   0x000062    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+                  SIN_RES   0x000064    program     static /home/vill4in/MPLABXProjects/Practicas_Escuela/Practica_1_Puertos_Operaciones.X/PRAC_1.asm
+
+
